@@ -4,8 +4,9 @@ import { GeistMono } from 'geist/font/mono'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'CodeQuest',
-  description: 'A Gamified Learning Platform',
+  title: 'v0 App',
+  description: 'Created with v0',
+  generator: 'v0.dev',
 }
 
 export default function RootLayout({
@@ -28,4 +29,3 @@ html {
     </html>
   )
 }
-

@@ -45,7 +45,7 @@ export function LandingPage({ onGetStarted }: LandingPageProps) {
   return (
     <div className="min-h-screen bg-slate-900 relative overflow-hidden">
       {/* Header */}
-      <header className="relative z-20 bg-slate-900/95 backdrop-blur-sm border-b border-slate-800">
+      <header className="sticky top-0 z-20 bg-slate-900/95 backdrop-blur-sm border-b border-slate-800">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-8">
@@ -108,7 +108,7 @@ export function LandingPage({ onGetStarted }: LandingPageProps) {
         <div className="absolute inset-0 bg-gradient-to-b from-slate-900/40 via-slate-900/20 to-slate-900/60" />
 
         {/* Content */}
-        <div className="relative z-10 text-center max-w-5xl mx-auto px-4 flex flex-col justify-center min-h-screen pt-20">
+        <div className="relative z-10 text-center max-w-5xl mx-auto px-4 flex flex-col justify-center min-h-screen">
           {/* Main Heading */}
           <div className="mb-8">
             <h2 className="text-5xl md:text-7xl lg:text-8xl font-black mb-6 leading-tight">
