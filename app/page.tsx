@@ -1,5 +1,4 @@
 "use client"
-
 import { useState, useEffect } from "react"
 import { LandingPage } from "@/components/landing-page"
 import { LoginPage } from "@/components/login-page"
